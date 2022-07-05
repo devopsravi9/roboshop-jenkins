@@ -11,7 +11,7 @@
 - name: Create a jenkins pipeline job which trigger by token using xml file
   community.general.jenkins_job:
     config: "{{ lookup('template', 'pipeline.xml') }}"
-    name: "{{item.JobName}}"
+    name: "{{item.FolderName}}""{{item.JobName}}"
     token: 114110016c850567cad435985c90415a9e
     url: http://172.31.8.157:8080
     user: admin

@@ -5,6 +5,7 @@
   loop :
   - { TokenName : 'cart', RepoName : 'cart' }
 
+#  first copy template file then us it for job creation & instead of password use token
 
 - name: Create a jenkins pipeline job which trigger by token using xml file
   community.general.jenkins_job:

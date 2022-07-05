@@ -7,4 +7,3 @@
     user: admin
   loop :
   - { TokenName : 'cart', RepoName : 'cart' }
-#  - { name : 'testuser2', groups : 'root' }

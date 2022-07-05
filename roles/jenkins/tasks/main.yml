@@ -1,9 +1,9 @@
 - name: Create a jenkins pipeline job which trigger by token using xml file
   community.general.jenkins_job:
-    config: "{{ lookup('file', 'templates/pipeline.xml') }}"
+    config: "{{ lookup('template', 'templates/pipeline.xml') }}"
     name: test
     password: admin
     url: http://3.235.68.2:8080
     user: admin
-#  loop :
- #   - { TokenName : 'cart', RepoName : 'cart' }
+  loop:
+    - { TokenName: 'cart', RepoName: 'cart' }

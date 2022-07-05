@@ -1,13 +1,23 @@
-- name: Create a jenkins pipeline job which trigger by token using xml file
+- name: Create a folder using xml file
   community.general.jenkins_job:
-    config: "{{ lookup('template', 'pipeline.xml') }}"
-    name: test
+    config: "{{ lookup('template', 'folder.xml') }}"
+    name: "{{item.FolderName}}"
     token: 114110016c850567cad435985c90415a9e
     url: http://172.31.8.157:8080
     user: admin
-  loop :
-    - { TokenName : 'cart', RepoName : 'cart' }
+  loop : "{{FOLDER}}"
+
+
+- name: Create a jenkins pipeline job which trigger by token using xml file
+  community.general.jenkins_job:
+    config: "{{ lookup('template', 'pipeline.xml') }}"
+    name: "{{item.JobName}}"
+    token: 114110016c850567cad435985c90415a9e
+    url: http://172.31.8.157:8080
+    user: admin
+  loop : "{{PIPELINES}}"
+
 
 # use token instead of password
-
+# her module is same for both folder and pipeline job why because the XML is saying what actually to do.
 

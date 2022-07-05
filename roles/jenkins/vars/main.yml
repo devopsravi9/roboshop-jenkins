@@ -1,0 +1,5 @@
+FOLDER:
+  - {FolderName: 'pipeline', Description: 'a pipeline'}
+
+PIPELINES:
+  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart' }

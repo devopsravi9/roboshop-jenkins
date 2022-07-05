@@ -5,5 +5,5 @@
     password: admin
     url: http://3.235.68.2:8080
     user: admin
-  loop :
-    - { TokenName : 'cart', RepoName : 'cart' }
+#  loop :
+ #   - { TokenName : 'cart', RepoName : 'cart' }

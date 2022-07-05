@@ -1,5 +1,5 @@
 FOLDER:
-  - {FolderName: 'pipeline3', Description: 'a pipeline', DisplayName: 'pipeline3'}
+  - {FolderName: 'CI-Pipeline', Description: 'CI Pipeline jobs for all roboshop component', DisplayName: 'CI-Pipeline'}
 
 PIPELINES:
-  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'pipeline3/' }
+  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }

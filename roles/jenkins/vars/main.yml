@@ -3,3 +3,13 @@ FOLDER:
 
 PIPELINES:
   - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
+
+
+
+
+

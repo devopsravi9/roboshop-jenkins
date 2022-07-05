@@ -2,7 +2,7 @@
 <com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.729.v2b_9d1a_74d673">
     <actions/>
     <description>{{item.Description}}</description>
-    <displayName></displayName>
+    <displayName>{{item.DisplayName}}</displayName>
     <properties/>
     <folderViews class="com.cloudbees.hudson.plugins.folder.views.DefaultFolderViewHolder">
         <views>

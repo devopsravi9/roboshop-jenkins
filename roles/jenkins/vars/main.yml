@@ -3,12 +3,12 @@ FOLDER:
 
 PIPELINES:
   - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
-  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
-  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
-  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
-  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
-  - { TokenName : 'cart', RepoName : 'cart', JobName: 'cart', FolderName: 'CI-Pipeline/' }
-
+  - { TokenName : 'frontend', RepoName : 'frontend', JobName: 'frontend', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'shipping', RepoName : 'shipping', JobName: 'shipping', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'user', RepoName : 'user', JobName: 'user', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'catalogue', RepoName : 'catalogue', JobName: 'catalogue', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'payment', RepoName : 'payment', JobName: 'payment', FolderName: 'CI-Pipeline/' }
+  - { TokenName : 'dispatch', RepoName : 'dispatch', JobName: 'dispatch', FolderName: 'CI-Pipeline/' }
 
 
 

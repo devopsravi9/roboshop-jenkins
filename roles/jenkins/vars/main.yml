@@ -10,7 +10,7 @@ PIPELINES:
   - { TokenName : 'payment', RepoName : 'payment', JobName: 'payment', FolderName: 'CI-Pipeline/' }
   - { TokenName : 'dispatch', RepoName : 'dispatch', JobName: 'dispatch', FolderName: 'CI-Pipeline/' }
 
-PIPLINE:
+PIPELINE:
   - { RepoName: 'roboshop-ansible', JobName: 'deploy-to-any-env', FolderName: "" }
 
 

@@ -23,7 +23,7 @@ pipeline  {
     stage ('Deploy') {
       steps{
         sh """
-          ansible-playbook -i ${ENV}-inv.roboshop -e ROLE=${COMPONENT} -e HOST=$(echo ${COMPONENT} | tr [:lower:] [:upper:]) -e COMPONENT=${COMPONENT} -e ansible_user=${SSH_USR} -e ansible_password=${SSH_PSW} roboshop.yml -e APP_VERSION=${APP_VERSION} -e ENV=${ENV}
+          ansible-playbook -i ${ENV}-inv.roboshop -e ROLE=${COMPONENT} -e HOST=FRONTEND  -e COMPONENT=${COMPONENT} -e ansible_user=${SSH_USR} -e ansible_password=${SSH_PSW} roboshop.yml -e APP_VERSION=${APP_VERSION} -e ENV=${ENV}
         """
         }
       }

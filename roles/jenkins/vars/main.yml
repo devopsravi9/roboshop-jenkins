@@ -11,7 +11,8 @@ PIPELINES:
   - { TokenName : 'dispatch', RepoName : 'dispatch', JobName: 'dispatch', FolderName: 'CI-Pipeline/' }
 
 PIPELINE:
-  - { RepoName: 'roboshop-jenkins', JobName: 'deploy-to-any-env', FolderName: "", FileName: "Jenkinsfile-any-dev-deploy" }
+  - { RepoName : 'roboshop-jenkins', JobName : 'deploy-to-any-env', FolderName : "", FileName : "Jenkinsfile-any-dev-deploy" }
+  - { RepoName : 'roboshop-terraform-mutable', JobName : 'terraform mutable', FolderName : "", FileName : "Jenkinsfile" }
 
 
 

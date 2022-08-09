@@ -13,6 +13,7 @@ PIPELINES:
 PIPELINE:
   - { RepoName : 'roboshop-jenkins', JobName : 'deploy-to-any-env', FolderName : "", FileName : "Jenkinsfile-any-dev-deploy" }
   - { RepoName : 'roboshop-terraform-mutable', JobName : 'terraform mutable', FolderName : "", FileName : "Jenkinsfile" }
+  - { RepoName : 'mutable-app-deployment', JobName : 'mutable-app-deployment', FolderName : "", FileName : "Jenkinsfile" }
 
 
 

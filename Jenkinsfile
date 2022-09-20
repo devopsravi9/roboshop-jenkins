@@ -4,8 +4,12 @@ pipeline {
     ansiColor('xterm')
     }
 
-  node {
+  stages {
     stage ('create job ') {
-      sh 'ansible-playbook create-jobs.yml'
+      steps {
+        sh 'ansible-playbook create-jobs.yml'
+        }
       }
     }
+
+  }
